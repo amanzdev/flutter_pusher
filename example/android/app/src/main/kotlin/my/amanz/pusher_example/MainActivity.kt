@@ -1,0 +1,6 @@
+package my.amanz.pusher_example
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
