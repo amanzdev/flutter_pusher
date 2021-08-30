@@ -1,8 +1,7 @@
 name: pusher
 description: Unofficial Flutter plugin for Pusher
 version: 0.0.1
-author: Haikal Izzuddin <haikal@amanz.my>
-homepage:
+repository: https://github.com/amanzdev/flutter_pusher
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

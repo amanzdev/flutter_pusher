@@ -248,17 +248,17 @@ class InitArgs {
 
 @JsonSerializable(includeIfNull: false)
 class PusherOptions {
-  final PusherAuth auth;
-  final String cluster;
-  final String host;
+  final PusherAuth? auth;
+  final String? cluster;
+  final String? host;
   final int port;
   final bool encrypted;
   final int activityTimeout;
 
   PusherOptions({
-    required this.auth,
-    required this.cluster,
-    required this.host,
+    this.auth,
+    this.cluster,
+    this.host,
     this.port = 443,
     this.encrypted = true,
     this.activityTimeout = 30000,
